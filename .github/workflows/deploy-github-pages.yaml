@@ -1,9 +1,13 @@
-name: Build and Publish Storybook to GitHub Pages
+name: Deploy Storybook to GitHub Pages
 
 on:
   push:
     branches:
       - master
+
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: true
 
 permissions:
   contents: read
@@ -13,6 +17,10 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - uses: actions/checkout@v4
@@ -39,4 +47,5 @@ jobs:
           path: ./storybook-static
 
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
