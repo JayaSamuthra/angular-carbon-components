@@ -27,7 +27,7 @@ Instead, please email **vanaraj@assistanz.com** with:
 
 ## Scope
 
-This policy covers the `ngcc` npm package and its source code. Vulnerabilities in third-party dependencies (e.g., `@carbon/styles`, `@carbon/charts`) should be reported to their respective maintainers.
+This policy covers the `@assistanz/ngcc` npm package and its source code. Vulnerabilities in third-party dependencies (e.g., `@carbon/styles`, `@carbon/charts`) should be reported to their respective maintainers.
 
 ## Recognition
 
