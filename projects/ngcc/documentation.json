@@ -3,7 +3,7 @@
     "interfaces": [
         {
             "name": "User",
-            "id": "interface-User-0005f8ce3743811a8f202b0f6168ebb978da6708151e499e4bf32049307fb3ec806994d72b3dd6566d40688225e0dfef160e13136d4527782f6dab491e6f3c97",
+            "id": "interface-User-ee4bce0ef82935dd44b767b9e67dacf27932fe8976ab7fd16be8a829a944460d2f763d524225f0405c2f205eb08ee81bea6ac21405a146071789efe84c9e2f6d",
             "file": "projects/ngcc/src/lib/ngcc-color-theme/ngcc-color-theme-demo.stories.ts",
             "deprecated": false,
             "deprecationMessage": "",
@@ -311,7 +311,7 @@
         },
         {
             "name": "FullPageDemoComponent",
-            "id": "component-FullPageDemoComponent-0005f8ce3743811a8f202b0f6168ebb978da6708151e499e4bf32049307fb3ec806994d72b3dd6566d40688225e0dfef160e13136d4527782f6dab491e6f3c97",
+            "id": "component-FullPageDemoComponent-ee4bce0ef82935dd44b767b9e67dacf27932fe8976ab7fd16be8a829a944460d2f763d524225f0405c2f205eb08ee81bea6ac21405a146071789efe84c9e2f6d",
             "file": "projects/ngcc/src/lib/ngcc-color-theme/ngcc-color-theme-demo.stories.ts",
             "encapsulation": [],
             "entryComponents": [],
