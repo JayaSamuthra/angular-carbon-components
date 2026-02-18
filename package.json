@@ -1,6 +1,6 @@
 {
   "name": "angular-carbon-components",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -20,7 +20,7 @@
     "lint:prettier": "prettier --check \"projects/ngcc/src/**/*.{ts,html,scss}\"",
     "lint:prettier:fix": "prettier --write \"projects/ngcc/src/**/*.{ts,html,scss}\"",
     "lint:fix": "npm run lint:eslint:fix && npm run lint:prettier:fix",
-    "audit:prod": "npm audit --omit=dev",
+    "audit:prod": "npm audit --omit=dev --audit-level=high",
     "audit:licenses": "npx license-checker --production --failOn \"GPL-2.0;GPL-3.0;AGPL-1.0;AGPL-3.0;SSPL-1.0\"",
     "storybook": "ng run ngcc:storybook --config-dir ./.storybook",
     "build-storybook": "ng run ngcc:build-storybook --config-dir ./.storybook",
