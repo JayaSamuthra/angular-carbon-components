@@ -2,6 +2,20 @@
 
 <!-- Briefly describe the changes in this PR -->
 
+#### Changelog
+
+**New**
+
+* {{new thing}}
+
+**Changed**
+
+* {{change thing}}
+
+**Removed**
+
+* {{removed thing}}
+
 ## Type of Change
 
 - [ ] Bug fix (non-breaking change that fixes an issue)
@@ -22,5 +36,6 @@
 - [ ] I have updated documentation (if applicable)
 
 ## Related Issues
-
-<!-- Link any related issues: Fixes #123, Closes #456 -->
+Closes #
+Closes owner/repo#
+Refs #
