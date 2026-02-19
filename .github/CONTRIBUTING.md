@@ -338,6 +338,21 @@ Labels are automatically added based on files changed:
 
 ---
 
+## Developer Certificate of Origin (DCO)
+
+This project requires all commits to be signed off to certify that you have
+the right to submit the work under the project’s license.
+
+To sign off a commit, use:
+
+  git commit -s
+
+This adds a line like:
+
+  Signed-off-by: Your Name <email@example.com>
+
+Commits without a sign-off will fail CI checks.
+
 ## Issue Guidelines
 
 ### Before Opening an Issue
