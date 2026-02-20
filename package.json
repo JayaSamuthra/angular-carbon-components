@@ -26,7 +26,8 @@
     "build-storybook": "ng run ngcc:build-storybook --config-dir ./.storybook",
     "precheck": "npm run build:lib && npm run test && npm run lint && npm run audit:prod && npm run audit:licenses",
     "commit": "czg",
-    "prepare": "husky"
+    "prepare": "husky",
+    "semantic-release": "semantic-release"
   },
   "config": {
     "commitizen": {
