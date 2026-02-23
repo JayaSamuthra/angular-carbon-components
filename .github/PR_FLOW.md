@@ -85,7 +85,7 @@ Follow the [coding standards](CONTRIBUTING.md#coding-standards):
 Component folder structure:
 
 ```
-projects/ngcc/src/lib/ngcc-<name>/
+projects/carbideui/src/lib/ngcc-<name>/
 ├── ngcc-<name>.component.ts
 ├── ngcc-<name>.component.html
 ├── ngcc-<name>.component.scss

@@ -4,4 +4,4 @@ coverage/
 .angular/
 storybook-static/
 package-lock.json
-projects/ngcc/documentation.json
+projects/carbideui/documentation.json

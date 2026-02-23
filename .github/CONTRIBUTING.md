@@ -155,7 +155,7 @@ All components **must** meet [WCAG 2.1 AA](https://www.w3.org/WAI/WCAG21/quickre
 Each component should follow this file structure:
 
 ```
-projects/ngcc/src/lib/ngcc-<name>/
+projects/carbideui/src/lib/ngcc-<name>/
 ├── ngcc-<name>.component.ts        # Component class
 ├── ngcc-<name>.component.html       # Template
 ├── ngcc-<name>.component.scss       # Styles

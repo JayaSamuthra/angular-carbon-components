@@ -86,7 +86,7 @@ Complete step-by-step guide for integrating NgccI18n into your Angular applicati
 \`\`\`typescript
 import { bootstrapApplication } from '@angular/platform-browser';
 import { provideHttpClient } from '@angular/common/http';
-import { provideNgccI18n, HttpNgccI18nLoader } from '@ngcc/components';
+import { provideNgccI18n, HttpNgccI18nLoader } from '@carbideui/components';
 
 bootstrapApplication(AppComponent, {
   providers: [
@@ -195,7 +195,7 @@ export default meta;
 class SetupGuideComponent {
   step1Code = `import { bootstrapApplication } from '@angular/platform-browser';
 import { provideHttpClient } from '@angular/common/http';
-import { provideNgccI18n, HttpNgccI18nLoader } from '@ngcc/components';
+import { provideNgccI18n, HttpNgccI18nLoader } from '@carbideui/components';
 
 bootstrapApplication(AppComponent, {
   providers: [
@@ -224,7 +224,7 @@ bootstrapApplication(AppComponent, {
 <!-- Multiple parameters -->
 <button>{{ 'button_save' | ngccI18n }}</button>`;
 
-  step4Code = `import { NgccI18nService } from '@ngcc/components';
+  step4Code = `import { NgccI18nService } from '@carbideui/components';
 
 export class MyComponent {
   private i18n = inject(NgccI18nService);
