@@ -9,7 +9,7 @@ This document describes the end-to-end lifecycle of a pull request in this repos
 ```
  Local Development
  ─────────────────
-  1. Branch from master
+  1. Branch from main
   2. Write code (signals, OnPush, WCAG 2.1 AA)
   3. Commit (conventional format)
   4. npm run precheck  →  lint + test + build
@@ -36,9 +36,9 @@ This document describes the end-to-end lifecycle of a pull request in this repos
  11. All CI checks green
         │
         ▼
- Merge to master (squash merge)
+ Merge to main (squash merge)
  ──────────────────────────────
- 12. CI runs again on master push
+ 12. CI runs again on main push
         │
         ├─► Semantic Release  →  npm publish + GitHub Release
         └─► Storybook Deploy  →  GitHub Pages updated
@@ -50,7 +50,7 @@ This document describes the end-to-end lifecycle of a pull request in this repos
 
 ### 1.1 Create a Branch
 
-Branch from `master` using the conventional naming format:
+Branch from `main` using the conventional naming format:
 
 ```
 <type>/<short-description>
@@ -66,7 +66,7 @@ Branch from `master` using the conventional naming format:
 | `chore/` | Tooling, dependencies, CI config |
 
 ```bash
-git checkout master && git pull origin master
+git checkout main && git pull origin main
 git checkout -b feat/ngcc-tooltip-arrow
 ```
 
@@ -182,7 +182,7 @@ The `labeler.yaml` workflow automatically applies labels based on changed file p
 
 ## 3. Automated CI Checks
 
-CI (`ci.yaml`) triggers on every PR push to `master`. Jobs run in parallel with a 10–15 minute timeout each.
+CI (`ci.yaml`) triggers on every PR push to `main`. Jobs run in parallel with a 10–15 minute timeout each.
 
 ### 3.1 Lint (parallel, 10 min)
 
@@ -278,13 +278,13 @@ Before a PR can be merged, **all** of the following must be true:
 
 ### 5.2 Merge Strategy
 
-All PRs are **squash merged** into `master`. The squash commit message is taken from the PR title (which must be in conventional commit format). This keeps `master` history clean and ensures every commit is parseable by Semantic Release.
+All PRs are **squash merged** into `main`. The squash commit message is taken from the PR title (which must be in conventional commit format). This keeps `main` history clean and ensures every commit is parseable by Semantic Release.
 
 ---
 
 ## 6. Post-Merge Automation
 
-Three pipelines trigger automatically on every push to `master`.
+Three pipelines trigger automatically on every push to `main`.
 
 ### 6.1 Semantic Release (publish.yaml)
 
@@ -318,9 +318,9 @@ Deployed to GitHub Pages environment
 
 The live Storybook is updated automatically — no manual step needed.
 
-### 6.3 CI on master
+### 6.3 CI on main
 
-The standard `ci.yaml` pipeline also runs on the master push (same lint/test/build jobs as on the PR), confirming the squash-merged state is healthy.
+The standard `ci.yaml` pipeline also runs on the main push (same lint/test/build jobs as on the PR), confirming the squash-merged state is healthy.
 
 ---
 
@@ -340,7 +340,7 @@ The standard `ci.yaml` pipeline also runs on the master push (same lint/test/bui
 
 ```bash
 # Start work
-git checkout master && git pull origin master
+git checkout main && git pull origin main
 git checkout -b feat/my-feature
 
 # Develop

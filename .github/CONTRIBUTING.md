@@ -263,8 +263,8 @@ Use the format: `<type>/<short-description>`
 ```bash
 # 1. Sync with upstream
 git fetch upstream
-git checkout master
-git merge upstream/master
+git checkout main
+git merge upstream/main
 
 # 2. Create a feature branch
 git checkout -b feat/radio-button
@@ -273,7 +273,7 @@ git checkout -b feat/radio-button
 npm run commit
 git push origin feat/radio-button
 
-# 4. Open a PR on GitHub against `master`
+# 4. Open a PR on GitHub against `main`
 ```
 
 ---
@@ -282,7 +282,7 @@ git push origin feat/radio-button
 
 ### PR Title
 
-Your PR title **must** follow conventional commit format — CI validates this automatically. The PR will be **squash-merged**, so the PR title becomes the commit message in `master`.
+Your PR title **must** follow conventional commit format — CI validates this automatically. The PR will be **squash-merged**, so the PR title becomes the commit message in `main`.
 
 ```
 feat: add radio button component
@@ -334,7 +334,7 @@ Labels are automatically added based on files changed:
 1. At least **one maintainer review** is required
 2. All CI checks must pass
 3. Address all review comments before merging
-4. PRs are **squash-merged** into `master`
+4. PRs are **squash-merged** into `main`
 
 ---
 

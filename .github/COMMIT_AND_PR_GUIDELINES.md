@@ -214,7 +214,7 @@ fix(Modal): Escape key fix.    # capitalised scope + period
 
 ### PR Description
 
-Open a PR against `master`. GitHub pre-fills the template — complete every section:
+Open a PR against `main`. GitHub pre-fills the template — complete every section:
 
 #### Related Issue
 ```
@@ -323,7 +323,7 @@ After merge, Semantic Release adds `status: released` to any linked issues.
 | Human review | At least **one approval** from `@assistanz/carbideui-maintainers` |
 | Comments | All review threads resolved |
 
-Once all gates are green, a maintainer squash-merges the PR into `master`.
+Once all gates are green, a maintainer squash-merges the PR into `main`.
 
 > `.github/` workflow changes require an additional **admin-level** review per CODEOWNERS.
 
@@ -380,10 +380,10 @@ npm run storybook              # dev server at localhost:6006
 npm run build-storybook        # static build
 
 # --- Branch ---
-git checkout master && git pull origin master
+git checkout main && git pull origin main
 git checkout -b feat/my-feature
 git push origin feat/my-feature
-# then open PR on GitHub against master
+# then open PR on GitHub against main
 ```
 
 ### Commit type cheat sheet

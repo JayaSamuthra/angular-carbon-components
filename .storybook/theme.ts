@@ -2,8 +2,8 @@ import { create } from 'storybook/theming';
 
 export default create({
   base: 'light', // or 'dark'
-  brandTitle: 'NGCC (Carbon-inspired)', // ← Not an official IBM product
-  brandUrl: '', // optional
+  brandTitle: 'Carbideui NGCC', // ← Not an official IBM product
+  brandUrl: 'https://github.com/assistanz/carbideui', // optional
   // brandImage: '/logo.svg', // optional logo
-  brandTarget: '_self', // optional
+  brandTarget: '', // optional
 });
