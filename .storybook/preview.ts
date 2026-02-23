@@ -1,9 +1,9 @@
 import { applicationConfig, type Preview } from '@storybook/angular'
 import { setCompodocJson } from "@storybook/addon-docs/angular";
-import docJson from "../projects/ngcc/documentation.json";
+import docJson from "../projects/carbideui/documentation.json";
 import { withThemeByDataAttribute } from '@storybook/addon-themes';
 import { provideZonelessChangeDetection } from '@angular/core';
-import {initNgccTheme} from '../projects/ngcc/src/lib/ngcc-theme-switcher/ngcc-theme-init';
+import {initNgccTheme} from '../projects/carbideui/src/lib/ngcc-theme-switcher/ngcc-theme-init';
 
 setCompodocJson(docJson);
 initNgccTheme('white');

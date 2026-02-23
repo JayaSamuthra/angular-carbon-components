@@ -1,5 +1,5 @@
 {
-  "name": "@assistanz-networks/ngcc",
+  "name": "@assistanz/carbideui",
   "version": "0.1.0",
   "description": "An independent, community-driven Angular component library inspired by the Carbon Design System. NOT affiliated with IBM.",
   "license": "MIT",
@@ -8,11 +8,11 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/assistanz/angular-carbon-components.git"
+    "url": "https://github.com/assistanz/carbideui.git"
   },
-  "homepage": "https://assistanz.github.io/angular-carbon-components",
+  "homepage": "https://assistanz.github.io/carbideui",
   "bugs": {
-    "url": "https://github.com/assistanz/angular-carbon-components/issues"
+    "url": "https://github.com/assistanz/carbideui/issues"
   },
   "keywords": [
   "angular",
@@ -20,16 +20,18 @@
   "component-library",
   "ui-components",
   "design-system",
-  "carbon-design",
+  "carbon-design-system",
   "carbon-components",
   "accessible-ui",
   "wcag",
   "standalone-components",
   "signals",
   "frontend",
-  "typescript"
+  "typescript",
+  "angular-carbon-components",
+  "carbideui"
 ],
-  "module": "./fesm2022/ngcc.mjs",
+  "module": "./fesm2022/carbideui.mjs",
   "typings": "./index.d.ts",
   "exports": {
     "./styles": "./styles/carbon.scss"

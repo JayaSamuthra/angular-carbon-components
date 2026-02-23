@@ -1,6 +1,6 @@
-# Contributing to NGCC
+# Contributing to Carbideui NGCC
 
-Thank you for your interest in contributing to **NGCC** (Angular Carbon Components)! This guide covers everything you need to know — from setting up your environment to submitting a polished pull request.
+Thank you for your interest in contributing to **arbideui NGCC** (Angular Carbon Components)! This guide covers everything you need to know — from setting up your environment to submitting a polished pull request.
 
 > **Inspired by:** The [Carbon Design System](https://github.com/carbon-design-system/carbon) contributing guidelines.
 
@@ -48,11 +48,11 @@ Look for issues labeled **`good first issue`** or **`help wanted`** — these ar
 # 1. Fork the repository on GitHub
 
 # 2. Clone your fork
-git clone https://github.com/<your-username>/angular-carbon-components.git
-cd angular-carbon-components
+git clone https://github.com/<your-username>/carbideui.git
+cd carbideui
 
 # 3. Add upstream remote
-git remote add upstream https://github.com/assistanz/angular-carbon-components.git
+git remote add upstream https://github.com/assistanz/carbideui.git
 
 # 4. Install dependencies (also sets up Husky git hooks)
 npm install
@@ -155,7 +155,7 @@ All components **must** meet [WCAG 2.1 AA](https://www.w3.org/WAI/WCAG21/quickre
 Each component should follow this file structure:
 
 ```
-projects/ngcc/src/lib/ngcc-<name>/
+projects/carbideui/src/lib/ngcc-<name>/
 ├── ngcc-<name>.component.ts        # Component class
 ├── ngcc-<name>.component.html       # Template
 ├── ngcc-<name>.component.scss       # Styles
@@ -392,7 +392,7 @@ Use the **Bug Report** template and include:
 | Steps to Reproduce | Yes | Numbered steps to trigger the bug |
 | Expected Behavior | Yes | What should happen |
 | Actual Behavior | Yes | What actually happens |
-| NGCC Version | Yes | Version of `@assistanz-networks/ngcc` |
+| NGCC Version | Yes | Version of `@assistanz/carbideui` |
 | Angular Version | Yes | Version of `@angular/core` |
 | Browser | Yes | Browser name and version |
 | OS | Yes | Operating system |

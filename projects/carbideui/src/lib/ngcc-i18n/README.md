@@ -17,7 +17,7 @@ A modern, signals-based internationalization (i18n) solution for Angular applica
 
 ## Installation
 
-The NgccI18n module is part of the `angular-carbon-components` library. It's ready to use out of the box.
+The NgccI18n module is part of the `carbideui` library. It's ready to use out of the box.
 
 ## Quick Start
 
@@ -26,7 +26,7 @@ The NgccI18n module is part of the `angular-carbon-components` library. It's rea
 ```typescript
 import { bootstrapApplication } from '@angular/platform-browser';
 import { provideHttpClient } from '@angular/common/http';
-import { provideNgccI18n, HttpNgccI18nLoader } from '@ngcc/components';
+import { provideNgccI18n, HttpNgccI18nLoader } from '@carbideui/components';
 import { AppComponent } from './app/app.component';
 
 const httpLoader = new HttpNgccI18nLoader('/assets/i18n');
@@ -71,7 +71,7 @@ Create JSON files in `public/assets/i18n/`:
 **Using the Service:**
 ```typescript
 import { Component, OnInit, inject } from '@angular/core';
-import { NgccI18nService } from '@ngcc/components';
+import { NgccI18nService } from '@carbideui/components';
 
 @Component({
   selector: 'app-root',
@@ -97,7 +97,7 @@ export class AppComponent implements OnInit {
 **Using the Pipe in Templates:**
 ```typescript
 import { Component } from '@angular/core';
-import { NgccI18nPipe } from '@ngcc/components';
+import { NgccI18nPipe } from '@carbideui/components';
 
 @Component({
   selector: 'app-demo',
@@ -202,7 +202,7 @@ const loader = new HttpNgccI18nLoader('/assets/i18n', '.json');
 
 ```typescript
 import { Injectable } from '@angular/core';
-import { NgccI18nLoader } from '@ngcc/components';
+import { NgccI18nLoader } from '@carbideui/components';
 
 @Injectable({ providedIn: 'root' })
 export class DatabaseI18nLoader implements NgccI18nLoader {

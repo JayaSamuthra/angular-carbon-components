@@ -1,5 +1,5 @@
 # Default owners for the entire repository
-* @assistanz/carbide-maintainers
+* @assistanz/carbideui-maintainers
 
 # Workflow files require admin review
-.github/ @assistanz/carbide-maintainers
+.github/ @assistanz/carbideui-maintainers

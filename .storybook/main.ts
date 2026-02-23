@@ -2,8 +2,8 @@ import type { StorybookConfig } from '@storybook/angular';
 
 const config: StorybookConfig = {
   stories: [
-    '../projects/ngcc/src/**/*.mdx',
-    '../projects/ngcc/src/**/*.stories.@(js|jsx|mjs|ts|tsx)',
+    '../projects/carbideui/src/**/*.mdx',
+    '../projects/carbideui/src/**/*.stories.@(js|jsx|mjs|ts|tsx)',
   ],
   addons: [
     '@storybook/addon-docs',

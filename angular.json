@@ -8,20 +8,20 @@
     }
   },
   "projects": {
-    "ngcc": {
+    "carbideui": {
       "projectType": "library",
-      "root": "projects/ngcc",
-      "sourceRoot": "projects/ngcc/src",
+      "root": "projects/carbideui",
+      "sourceRoot": "projects/carbideui/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular/build:ng-packagr",
           "configurations": {
             "production": {
-              "tsConfig": "projects/ngcc/tsconfig.lib.prod.json"
+              "tsConfig": "projects/carbideui/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/ngcc/tsconfig.lib.json"
+              "tsConfig": "projects/carbideui/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -29,24 +29,24 @@
         "test": {
           "builder": "@angular/build:unit-test",
           "options": {
-            "tsConfig": "projects/ngcc/tsconfig.spec.json"
+            "tsConfig": "projects/carbideui/tsconfig.spec.json"
           }
         },
         "storybook": {
           "builder": "@storybook/angular:start-storybook",
           "options": {
-            "configDir": "projects/ngcc/.storybook",
-            "browserTarget": "ngcc:build",
+            "configDir": "projects/carbideui/.storybook",
+            "browserTarget": "carbideui:build",
             "compodoc": true,
             "compodocArgs": [
               "-e",
               "json",
               "-d",
-              "projects/ngcc"
+              "projects/carbideui"
             ],
             "port": 6006,
             "styles": [
-              "projects/ngcc/src/styles/carbon.scss",
+              "projects/carbideui/src/styles/carbon.scss",
               "@carbon/charts/scss/index.scss"
             ]
           }
@@ -54,18 +54,18 @@
         "build-storybook": {
           "builder": "@storybook/angular:build-storybook",
           "options": {
-            "configDir": "projects/ngcc/.storybook",
-            "browserTarget": "ngcc:build",
+            "configDir": "projects/carbideui/.storybook",
+            "browserTarget": "carbideui:build",
             "compodoc": true,
             "compodocArgs": [
               "-e",
               "json",
               "-d",
-              "projects/ngcc"
+              "projects/carbideui"
             ],
             "outputDir": "storybook-static",
             "styles": [
-              "projects/ngcc/src/styles/carbon.scss",
+              "projects/carbideui/src/styles/carbon.scss",
               "@carbon/charts/scss/index.scss"
             ]
           }

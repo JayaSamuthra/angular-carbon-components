@@ -27,11 +27,11 @@ module.exports = [
   // TypeScript files — component library source
   // ==========================================================================
   {
-    files: ['projects/ngcc/src/**/*.ts'],
+    files: ['projects/carbideui/src/**/*.ts'],
     languageOptions: {
       parser: tsParser,
       parserOptions: {
-        project: './projects/ngcc/tsconfig.lib.json',
+        project: './projects/carbideui/tsconfig.lib.json',
       },
     },
     plugins: {
@@ -101,7 +101,7 @@ module.exports = [
   // Angular HTML templates — accessibility & template safety
   // ==========================================================================
   {
-    files: ['projects/ngcc/src/**/*.html'],
+    files: ['projects/carbideui/src/**/*.html'],
     languageOptions: {
       parser: angularTemplateParser,
     },

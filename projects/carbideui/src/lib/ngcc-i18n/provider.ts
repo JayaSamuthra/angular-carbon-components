@@ -11,7 +11,7 @@ import { NgccI18nService } from './service';
  * @example
  * ```typescript
  * // In main.ts for standalone apps
- * import { provideNgccI18n, HttpNgccI18nLoader } from '@ngcc/components';
+ * import { provideNgccI18n, HttpNgccI18nLoader } from '@carbideui/components';
  *
  * bootstrapApplication(AppComponent, {
  *   providers: [
