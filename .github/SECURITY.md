@@ -21,7 +21,7 @@ Instead, please email **vanaraj@assistanz.com** with:
 
 ## Scope
 
-This policy covers the `@assistanz/carbide` npm package and its source code. Vulnerabilities in third-party dependencies (e.g., `@carbon/styles`, `@carbon/charts`) should be reported to their respective maintainers.
+This policy covers the `@assistanz/carbideui` npm package and its source code. Vulnerabilities in third-party dependencies (e.g., `@carbon/styles`, `@carbon/charts`) should be reported to their respective maintainers.
 
 ## Dependency Vulnerability Policy
 

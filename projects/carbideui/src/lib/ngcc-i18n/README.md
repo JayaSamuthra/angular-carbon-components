@@ -17,7 +17,7 @@ A modern, signals-based internationalization (i18n) solution for Angular applica
 
 ## Installation
 
-The NgccI18n module is part of the `angular-carbon-components` library. It's ready to use out of the box.
+The NgccI18n module is part of the `carbideui` library. It's ready to use out of the box.
 
 ## Quick Start
 
